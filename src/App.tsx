@@ -86,6 +86,8 @@ function App() {
             </p>
 
             <div className="research-grid">
+
+              {/* Physalis project */}
               <a
                 className="research-card"
                 href="https://biotecnologiamicrobianaunalmed.github.io/PhysalisViralEpidemiology/"
@@ -106,6 +108,7 @@ function App() {
                 </div>
               </a>
 
+              {/* Orchid virome */}
               <a
                 className="research-card"
                 href="https://biotecnologiamicrobianaunalmed.github.io/OrchidViromeExplorer/"
@@ -124,6 +127,27 @@ function App() {
                   </p>
                 </div>
               </a>
+
+              {/* ToBRFV project */}
+              <a
+                className="research-card"
+                href="https://biotecnologiamicrobianaunalmed.github.io/ToBRFVResearch_sayaj/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className="research-image research-image-tobrfv" />
+                <div className="research-card-body">
+                  <h4 className="research-title">
+                    Genomic Analysis and Epidemiology of Tomato Brown Rugose Fruit Virus (ToBRFV)
+                  </h4>
+                  <p className="research-summary">
+                    Interactive web platform for exploring genomic diversity,
+                    phylogenetic relationships, and epidemiological patterns
+                    of Tomato Brown Rugose Fruit Virus affecting tomato crops.
+                  </p>
+                </div>
+              </a>
+
             </div>
           </div>
         </section>
@@ -133,6 +157,7 @@ function App() {
             <h3>The Team</h3>
 
             <div className="people-grid">
+
               <article className="person-card leader">
                 <div className="person-text">
                   <p className="person-section-title">Group Leader</p>
@@ -143,7 +168,7 @@ function App() {
                     <a href="mailto:paguties@unal.edu.co">Email</a>
                   </div>
                 </div>
-                <div className="person-photo-placeholder" aria-hidden="true" />
+                <div className="person-photo-placeholder" />
               </article>
 
               <article className="person-card">
@@ -155,7 +180,7 @@ function App() {
                     <a href="mailto:mmhiguit@unal.edu.co">Email</a>
                   </div>
                 </div>
-                <div className="person-photo-placeholder" aria-hidden="true" />
+                <div className="person-photo-placeholder" />
               </article>
 
               <article className="person-card">
@@ -167,56 +192,9 @@ function App() {
                     <a href="mailto:jsanchezy@unal.edu.co">Email</a>
                   </div>
                 </div>
-                <div className="person-photo-placeholder" aria-hidden="true" />
+                <div className="person-photo-placeholder" />
               </article>
 
-              <article className="person-card">
-                <div className="person-text">
-                  <p className="person-section-title">Bachelor Student</p>
-                  <h4 className="person-name">Alejandra Pérez Perea</h4>
-                  <p className="person-role">Biological Engineering student</p>
-                  <div className="person-links">
-                    <a href="mailto:alperezp@unal.edu.co">Email</a>
-                  </div>
-                </div>
-                <div className="person-photo-placeholder" aria-hidden="true" />
-              </article>
-
-              <article className="person-card">
-                <div className="person-text">
-                  <p className="person-section-title">Bachelor Student</p>
-                  <h4 className="person-name">Christian Jiménez Arias</h4>
-                  <p className="person-role">Biological Engineering student</p>
-                  <div className="person-links">
-                    <a href="mailto:chjimeneza@unal.edu.co">Email</a>
-                  </div>
-                </div>
-                <div className="person-photo-placeholder" aria-hidden="true" />
-              </article>
-
-              <article className="person-card">
-                <div className="person-text">
-                  <p className="person-section-title">Bachelor Student</p>
-                  <h4 className="person-name">Sarita Quintero Osorio</h4>
-                  <p className="person-role">Biological Engineering student</p>
-                  <div className="person-links">
-                    <a href="mailto:squinteroos@unal.edu.co">Email</a>
-                  </div>
-                </div>
-                <div className="person-photo-placeholder" aria-hidden="true" />
-              </article>
-
-              <article className="person-card">
-                <div className="person-text">
-                  <p className="person-section-title">Bachelor Student</p>
-                  <h4 className="person-name">Jazmín Rocío Gómez Cruz</h4>
-                  <p className="person-role">Biological Engineering student</p>
-                  <div className="person-links">
-                    <a href="mailto:jgomezcr@unal.edu.co">Email</a>
-                  </div>
-                </div>
-                <div className="person-photo-placeholder" aria-hidden="true" />
-              </article>
             </div>
           </div>
         </section>
